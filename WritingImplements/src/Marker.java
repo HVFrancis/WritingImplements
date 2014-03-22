@@ -17,11 +17,11 @@ class Marker extends Pen
 	/**
 	 * mutator method for tipShape. Valid shapes are "chisel", "bullet", and "wide"
 	 *
-	 * @param tipShape 	the shape of the writing tip.
+	 * @param tipShape the shape of the writing tip.
 	 */
-	public void setTipShape(String tipShape)
+	private void setTipShape(String tipShape)
    {
-		if (   (tipShape == "chisel")
+		if ((tipShape == "chisel")
           || (tipShape == "bullet")
           || (tipShape == "wide") )
 			this.tipShape = tipShape;
@@ -42,7 +42,8 @@ class Marker extends Pen
 	
 	{
 		super(inkColor, "plastic", tipSize);
-		this.tipShape = tipShape;
+		//this.tipShape = tipShape;
+		this.setTipShape(tipShape);
 	}
 
 
