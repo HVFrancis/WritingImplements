@@ -1,3 +1,5 @@
+package src;
+
 class Marker extends Pen
 {
 	private String tipShape;
