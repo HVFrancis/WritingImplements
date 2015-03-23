@@ -1,3 +1,5 @@
+package src;
+
 class Pen extends WritingImplement
 {
        
