@@ -13,6 +13,7 @@ public class WritingImplements
 
 		Marker dryErase = new Marker("blue", "chisel", 6.35);
 		Marker sharpie = new Marker("green", "bullet", 2.0);
+		
 
 		myPurplePen.write("I'm hungry");
 
@@ -31,6 +32,7 @@ public class WritingImplements
  		myPencilBox.add(dryErase);
 		myPencilBox.add(sharpie);
  		myPencilBox.add(new Pen("blue", "plastic", 0.9));
+
 
  		for (WritingImplement w : myPencilBox)
   		{

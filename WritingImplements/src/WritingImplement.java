@@ -56,7 +56,7 @@ abstract class WritingImplement
 	 /**
      * Mutator method for bodyMaterial      
 	  *
-	  * @param	bodyMaterial	the material the implment is made of. Must be one of "plastic", "wooden", or "metal".
+	  * @param	bodyMaterial	the material the implement is made of. Must be one of "plastic", "wooden", or "metal".
 	  */
 	 private void setBodyMaterial(String bodyMaterial)
     {
