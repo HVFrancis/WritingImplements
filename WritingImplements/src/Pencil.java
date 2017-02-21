@@ -80,5 +80,8 @@ class Pencil extends WritingImplement
 	 draw(shape);
    
    }
+   public void sharpen(){
+       System.out.println("The pencil has been sharpened");
+   }
 
 }
