@@ -13,6 +13,8 @@ public class WritingImplements
 	    
 	    Pencil no2Pencil = new Pencil();
 		Pencil mechPencil = new Pencil("plastic", "clear blue", 0.7);
+		// Test Pencil's erase() method #26 - Stephen Osborn
+		no2Pencil.erase("Hello world!");
 
 		
 		Pen oldFolks = new Pen();
