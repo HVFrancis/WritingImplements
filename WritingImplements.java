@@ -6,14 +6,16 @@ import java.util.ArrayList;
 
 public class WritingImplements
 {
-    public static void main(String[] args)
-    {
-        //Section 1 - Simple Tests
-        
-        
-        Pencil no2Pencil = new Pencil();
-        Pencil mechPencil = new Pencil("plastic", "clear blue", 0.7);
 
+	public static void main(String[] args)
+	{
+		//Section 1 - Simple Tests
+	    
+	    
+	    Pencil no2Pencil = new Pencil();
+		Pencil mechPencil = new Pencil("plastic", "clear blue", 0.7);
+		// Test Pencil's erase() method #26 - Stephen Osborn
+		no2Pencil.erase("Hello world!");
         
         Pen oldFolks = new Pen();
         Pen myPurplePen = new Pen("purple", "plastic", 0.7);
