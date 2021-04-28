@@ -29,7 +29,9 @@ public class WritingImplements
 		
 		yellowHighlighter.highlight("I'm hungry");
 		
-		
+		DryErase dry1 = new DryErase();
+		// Test DryErase marker's erase() method #27 Jeremy Stacy
+		dry1.erase("Testing Dry Erase erase!");
 
 
 
@@ -44,6 +46,7 @@ public class WritingImplements
 		myPencilBox.add(oldFolks);
  		myPencilBox.add(myPurplePen);
  		myPencilBox.add(dryErase);
+		myPencilBox.add(dry1);
 		myPencilBox.add(sharpie);
  		myPencilBox.add(new Pen("blue", "plastic", 0.9));
  		myPencilBox.add(yellowHighlighter);
