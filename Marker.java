@@ -74,7 +74,7 @@ class Marker extends Pen
  	 *
  	 * @param 	shape		the shape being colored
 	 */
- 	public void Color(String shape)
+ 	public void color(String shape)
 	{
 		System.out.println("The " + getInkColor() + " marker just colored a: " + shape);
 	}
