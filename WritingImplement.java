@@ -4,7 +4,6 @@ abstract class WritingImplement
 {
     private String bodyMaterial;
     private double pointSize;
-    private double length; 
 
     /**
      * A constructor for the WritingImplement class
@@ -16,7 +15,7 @@ abstract class WritingImplement
     {
         setBodyMaterial(bodyMaterial);
         setPointSize(pointsize);
-        this.length = 5.5;
+
     }
 
     /**
@@ -43,15 +42,6 @@ abstract class WritingImplement
         return pointSize;
     }
 
-    /**
-     * Method for getting the length
-     * 
-     * @return the length
-     */
-    public double getLength()
-    {
-        return length;
-    }
 
     /**
      * Accessor method for bodyMaterial      
