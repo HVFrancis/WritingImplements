@@ -5,7 +5,7 @@
  * describes a new type of writing implement (pencil) and the methods
  * associated with this new writing implement.
  */
-class Pencil extends WritingImplement
+class Pencil extends WritingImplement implements Erasable
 {
 
     // The color of the pencil (not the color it writes). It can be any string that names a color.
