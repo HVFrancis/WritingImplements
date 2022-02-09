@@ -8,7 +8,7 @@
  * @author Cody Johnson aka CSSRPDev
  * @version Febuary 5, 2019
  */
-public class DryErase extends Marker
+public class DryErase extends Marker implements Erasable
 {
     /**
      * Default constructor for DryErase Marker
